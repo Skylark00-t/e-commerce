@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" media="screen" title="no title">
+</head>
+<body>
+    <div class="input">
+        <h1>Register</h1>
+        <form action="register.php" method="post">
+            <div class="box-input">
+                <i class="fas fa-address-book"></i>
+                <input type="text" placeholder="Username">
+            </div>
+            <div class="box-input">
+                <i class="fas fa-envelope-open-text"></i>
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="box-input">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Password">
+            </div>
+            <button type="submit" name="register" class="btn-input">Register</button>
+            <a href="dashboard.html">
+                <div class="bottom">
+                    <p>Sudah punya akun?
+                        <a href="login.html"> Login disini</a>
+                    </p>
+                </div>
+            </a>
+        </form>
+    </div>
+</body>
+</html>
